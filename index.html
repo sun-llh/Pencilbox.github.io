@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QK.Pencilbox</title>
+    <meta name="keywords" content="这里字体自己改">
+    <meta name="description" content="这里字体自己改">
+    <meta name="author" content="Crane.QQ1554788005">
+    <link rel="shortcut icon" href="#自己添加" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/font.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="core hd">
+        <!-- 时间 -->
+        <h1 class="time_econd"></span></h1>
+        <h3><span class="time_moon"></span>&nbsp;&nbsp;<span id="clock"></span>&#128513;</h3>
+        <!-- 搜索栏 -->
+        <div class="xf_baidu xf_style">
+            <form action="http://www.baidu.com/baidu" target="_blank">
+                <i></i>
+                <input type="text" name="word" size="30" autocomplete="off" placeholder="百度一下">
+                <input type="submit">
+            </form>
+        </div>
+    </header>
+    <!-- 主体 -->
+    <section class="core main xf_style">
+        <!-- 头像 -->
+        <div class="tx">
+            <!-- 可以换成自己的 -->
+            <img src="assets\images\head.jpg" alt="" title="">
+        </div>
+        <!-- 姓名 个签 -->
+        <div class="xf_name">
+            <h2>勤空.</h2>
+            <h4 id="xf_txt"></h4>
+        </div>
+        <!-- 图标 （img里面的是透明图是用来转换超链接） -->
+        <div class="xf_ico_link">
+            <ul>
+                <li><a href="https://v.douyin.com/BkSV3W3/" target="_blank" rel="noopener noreferrer"><img src="./assets/images/transparent.png"
+                            alt="抖音" title="抖音"></a></li>
+                <li><a href="https://qm.qq.com/cgi-bin/qm/qr?k=SOPo5fWY2I3Ut-seSyAeMRfhq_yTWnYg&noverify=0&personal_qrcode_source=4" target="_blank" rel="noopener noreferrer"><img src="./assets/images/transparent.png"
+                            alt="QQ" title="QQ"></a></li>
+                <li><a href="https://mail.qq.com/cgi-bin/frame_html?sid=K2WThdeQjmK8_kUm&r=e17cd98a75e9cf5de9ca9e17a068778a" target="_blank" rel="noopener noreferrer"><img src="./assets/images/transparent.png"
+                            alt="邮箱" title="邮箱"></a></li>
+                <li><a href="https://space.bilibili.com/605090250?spm_id_from=333.1007.0.0" target="_blank" rel="noopener noreferrer"><img src="./assets/images/transparent.png"
+                            alt="bilibili" title="bilibili"></a></li>
+            </ul>
+        </div>
+        <!-- 介绍 -->
+        <div class="xf_introduce">
+            <p id="xf_type"></p>
+        </div>
+        <!-- 滑动效果 -->
+        <p class="xf_slide">&#xeb6d;</p>
+        <div class="xf_website">
+            <a href="http://121.196.194.164/" target="_blank" rel="noopener noreferrer">测试</a>
+            <a href="https://rp.mockplus.cn/view/IjpEwLvWfOp/xU6CtP2G3wmy?nav=0&cps=hide&rps=hide&ha=0&la=0&fc=1&dt=none&out=0&rt=0&moduleID=m-ydg65f1AJ0" target="_blank" rel="noopener noreferrer">测试</a>
+            <a href="https://www.46yun.com/clientarea" target="_blank" rel="noopener noreferrer">测试</a>
+            <a href="https://console.dnspod.cn/dns/list" target="_blank" rel="noopener noreferrer">测试</a>
+        </div>
+    </section>
+    <!-- 底部 -->
+    <footer class="core copy">
+        <p>Copyright © 2023 <a href="https://www.lt-inc.cn" target="_blank" rel="noopener noreferrer">Qinkong.网络</a> 版权所有</p>
+        
+    </footer>
+    <audio autoplay>
+        <source src="https://api.uomg.com/api/rand.music?sort=热歌榜" type="audio/mpeg">
+    </audio>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".xf_slide").click(function () {
+                $(".xf_website").slideToggle("slow");
+            })
+        })
+    </script>
+    <script src="./assets/js/time.js"></script>
+    <script src="./assets/js/text.js"></script>
+</body>
+
+</html>
